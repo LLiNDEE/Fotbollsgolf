@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotbollsgolf</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Fotbollsgolf</h1>
+    </header>
+    <div class="container">
+        <div id="start-menu" class="start-menu">
+            <div id="player-selection" class="player-selection">
+                <p id="errorMSG" class="errorMSG"></p>
+                <input class="PlayerAmount" id="PlayerAmount" type="number" placeholder="Antal spelare"></input><br>
+                <button id="confirm-player-btn" onClick="PlayerAmountHandler()" class="confirm-player-btn">Spara</button>
+                <div id="player-names" class="player-names">
+
+                </div>
+            </div>
+        </div>
+        <div id="main-container" class="main-container">
+        </div>
+    </div>
+</body>
+</html>

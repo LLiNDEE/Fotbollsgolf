@@ -1,0 +1,596 @@
+
+
+
+
+@media (min-width: 900px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    header{
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        background-color: lightblue;
+        height: 9vh;
+    }
+    
+    header h1{
+        color: black;
+    }
+    
+    .start-menu{
+        text-align: center;
+        padding: 2vh;
+     }
+    /*.start-menu select{
+        height: 10vh;
+        width: 13vh;
+    }
+    .start-menu option{
+        height: 5vh;
+        width: 13vh;
+        font-size: 15px;
+    } */
+    
+    /* TAR BORT PILAR PÅ INPUT */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+    /* --------------------------- */
+    
+    .PlayerAmount{
+        height: 10vh;
+    }
+    .errorMSG{
+        color: red;
+        font-size: 25px;
+    }
+    .confirm-player-btn{
+        height: 5vh;
+        width: 20vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+    }
+    
+    .player-names{
+        display: inline-block;
+        margin: auto;
+    }
+    .player-name{
+        padding: 1vh;
+    }
+    .player-name input{
+        border-radius: 1vh;
+        height: 5vh;
+        border: 0.5px solid black;
+        padding-left: 1vh;
+    }
+    
+    .main-container{
+        text-align: center;
+    }
+    .main-container input{
+        height: 5vh;
+        width: 20vh;
+    }
+    
+    .start-btn{
+        height: 5vh;
+        width: 20vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+    }
+    
+    .scorecard {
+        width: 100vh;
+        margin: auto;
+    }
+    
+    .scorecard h4{
+        font-size: 25px;
+    }
+    
+    .scorecard-input{
+        margin-top: 1vh;
+        width: 10vh;
+        margin-left: 1vh;
+        border-radius: 0.5vh;
+        border: 0.5px solid black;
+    }
+    
+    .scorecard-individual{
+        display: block;
+    }
+    
+    .scorecard-playerName{
+        font-size: 18px;
+    }
+    
+    .next-course-btn{
+        height: 5vh;
+        width: 20vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+    }
+    
+    .errorMSG-scorecard{
+        color: red;
+        font-size: 25px;
+    }
+    
+    .course-info-par{
+        color: black;
+        font-size: 17px;
+    }
+    
+    .course-info{
+        font-size: 18px;
+        color: gray;
+    }
+    
+    .scoreboard-player{
+        margin: 1vh;
+        font-size: 20px;
+        border: 1px solid lightgrey;
+        width: 50vh;
+        margin: auto;
+        margin-bottom: 1vh;
+    }
+    
+    .show-details-btn{ /* Knapp på förenklad scoreboard */
+        height: 7vh;
+        width: 25vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+        color: black;
+    }
+    
+    .player-stats{
+        width: 50vh;
+        text-align: right;
+        margin: auto;
+        margin-bottom: 2vh;
+        margin-top: 4vh;
+        padding: 1vh;
+        flex: 1;
+        line-height:4vh;
+    }
+    .player-stats p{
+        margin: 1vh;
+    }
+    /* .player-stats div{
+        padding: 0.5vh;
+    } */
+    
+    .SB-course{ /* Hål på detaljerad scoreboard */
+        font-size: 18px;
+        color: black;
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 5vh;
+        padding: 0.5vh;
+    }
+    .SB-slag{ /* Antal slag per bana på detaljerad scoreboard */
+        font-size: 17px;
+        color: gray;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.5vh;
+        height: 5vh;
+    }
+    
+    .SB-name{ /* Namnet som visas på detaljerad scoreboard!!!!! */
+        font-size: 22px;
+        width: 15vh;
+        margin: auto;
+    }
+    
+    .show_SB_btn{ /*  KNAPP FÖR ATT GÅ TILLBAKA TILL FÖRENKLAD LISTA!!!!!!!!  */
+        height: 7vh;
+        width: 35vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+        color: black;
+        margin-bottom: 2vh;
+    }
+    
+    /* .player-SB{
+        display: flex;
+        width: 200px;
+    } */
+    
+    .player-SB{
+        border: 1px solid lightgray;
+        width: 100vh;
+        margin: auto;
+    }
+    
+    .player-score{
+        text-align: center;
+    }
+    
+    .player-SB-div{
+        display: inline-block;
+        margin: auto;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        width: 15vh;
+    }
+    
+    
+    .SB-div{
+        margin-top: 1vh;
+    }
+    .SB-par{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.5vh;
+        height: 5vh;
+    }
+    
+    .green-highlight{
+        color: black;
+        background-color: lightgreen;
+    }
+    .red-highlight{
+        color: black;
+        background-color: rgb(218, 96, 96);
+    }
+    .orange-highlight{
+        color: black;
+        background-color: lightblue;
+    }
+    
+    .show_current_stats_btn{
+        height:5vh;
+        background-color: lightblue;
+        border: 2px solid blue;
+        width: 30vh;
+        border-radius: 0.5vh;
+    }
+    
+    .course-played{
+        text-decoration: underline;
+        color: green;
+        font-size: 20px;
+    }
+    
+    .winner-div{
+        font-size: 25px;
+        padding: 1vh;
+    }
+    
+    .winner-name-span{
+        color: green;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    
+}
+
+@media (max-width: 480px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header{
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        background-color: lightblue;
+        height: 9vh;
+        width: 100%;
+    }
+    
+    header h1{
+        color: black;
+    }
+    
+    .start-menu{
+        text-align: center;
+        padding: 2vh;
+     }
+    /*.start-menu select{
+        height: 10vh;
+        width: 13vh;
+    }
+    .start-menu option{
+        height: 5vh;
+        width: 13vh;
+        font-size: 15px;
+    } */
+    
+    /* TAR BORT PILAR PÅ INPUT */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+    /* --------------------------- */
+    
+    .PlayerAmount{
+        height: 15vh;
+        width: 30vh;
+        font-size: 30px;
+    }
+    .errorMSG{
+        color: red;
+        font-size: 25px;
+    }
+    .confirm-player-btn{
+        height: 10vh;
+        width: 30vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+        font-size: 30px;
+    }
+    
+    .player-names{
+        display: inline-block;
+        margin: auto;
+    }
+    .player-name{
+        padding: 1vh;
+    }
+    .player-name h4{
+        font-size: 25px;
+    }
+    .player-name input{
+        border-radius: 1vh;
+        height: 10vh;
+        border: 0.5px solid black;
+        padding-left: 1vh;
+        width: 30vh;
+        font-size: 25px;
+    }
+
+    .main-container{
+        text-align: center;
+    }
+    /* .main-container input{
+        height: 5vh;
+        width: 20vh;
+    } */
+    
+    .start-btn{
+        height: 10vh;
+        width: 30vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+        font-size: 25px;
+    }
+    
+    .start-course-input{
+        width: 30vh;
+        height: 10vh;
+        font-size: 25px;
+    }
+
+    .scorecard {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .scorecard h4{
+        font-size: 25px;
+    }
+    
+    .scorecard-input{
+        margin-top: 1vh;
+        width: 10vh;
+        margin-left: 1vh;
+        border-radius: 0.5vh;
+        border: 0.5px solid black;
+    }
+    
+    .scorecard-individual{
+        display: block;
+    }
+    
+    .scorecard-playerName{
+        font-size: 20px;
+    }
+    .scorecard-playerName input{
+        width: 20vh;
+        height: 7vh;
+    }
+    
+    .next-course-btn{
+        height: 7vh;
+        width: 30vh;
+        font-size: 20px;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+    }
+    
+    .errorMSG-scorecard{
+        color: red;
+        font-size: 25px;
+    }
+    
+    .course-info-par{
+        color: black;
+        font-size: 17px;
+    }
+    
+    .course-info{
+        font-size: 18px;
+        color: gray;
+    }
+    
+    .scoreboard-player{
+        margin: 1vh;
+        font-size: 20px;
+        border: 1px solid lightgrey;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1vh;
+    }
+    
+    .show-details-btn{ /* Knapp på förenklad scoreboard */
+        height: 7vh;
+        width: 30vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 2px solid green;
+        border-radius: 0.5vh;
+        color: black;
+        font-size: 18px;
+    }
+    
+    .player-stats{
+        width: 50vh;
+        text-align: right;
+        margin: auto;
+        margin-bottom: 2vh;
+        margin-top: 4vh;
+        padding: 1vh;
+        flex: 1;
+        line-height:4vh;
+    }
+    .player-stats p{
+        margin: 1vh;
+    }
+    /* .player-stats div{
+        padding: 0.5vh;
+    } */
+    
+    .SB-course{ /* Hål på detaljerad scoreboard */
+        font-size: 18px;
+        color: black;
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 5vh;
+        padding: 0.5vh;
+    }
+    .SB-slag{ /* Antal slag per bana på detaljerad scoreboard */
+        font-size: 17px;
+        color: gray;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.5vh;
+        height: 5vh;
+    }
+    
+    .SB-name{ /* Namnet som visas på detaljerad scoreboard!!!!! */
+        font-size: 22px;
+        width: 15vh;
+        margin: auto;
+    }
+    
+    .show_SB_btn{ /*  KNAPP FÖR ATT GÅ TILLBAKA TILL FÖRENKLAD LISTA!!!!!!!!  */
+        height: 7vh;
+        width: 35vh;
+        margin-top: 1vh;
+        background-color: lightgreen;
+        border: 1px solid green;
+        border-radius: 0.5vh;
+        color: black;
+        margin-bottom: 2vh;
+    }
+    
+    /* .player-SB{
+        display: flex;
+        width: 200px;
+    } */
+    
+    .player-SB{
+        border: 1px solid lightgray;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .player-score{
+        text-align: center;
+    }
+    
+    .player-SB-div{
+        display: inline-block;
+        margin: auto;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        width: 15vh;
+    }
+    
+    
+    .SB-div{
+        margin-top: 1vh;
+    }
+    .SB-par{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.5vh;
+        height: 5vh;
+    }
+    
+    .green-highlight{
+        color: black;
+        background-color: lightgreen;
+    }
+    .red-highlight{
+        color: black;
+        background-color: rgb(218, 96, 96);
+    }
+    .orange-highlight{
+        color: black;
+        background-color: lightblue;
+    }
+    
+    .show_current_stats_btn{
+        height:7vh;
+        background-color: lightblue;
+        border: 2px solid blue;
+        width: 35vh;
+        border-radius: 0.5vh;
+        font-size: 18px;
+    }
+    
+    .course-played{
+        text-decoration: underline;
+        color: green;
+        font-size: 20px;
+    }
+    
+    .winner-div{
+        font-size: 25px;
+        padding: 1vh;
+    }
+    
+    .winner-name-span{
+        color: green;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+}
